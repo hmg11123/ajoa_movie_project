@@ -1,4 +1,6 @@
 @import "./reset.css";
+@import "./Header.css";
+@import "./Footer.css";
 @import "./screen01.css";
 @import "./screen02.css";
 @import "./screen03.css";

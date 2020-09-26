@@ -1,8 +1,44 @@
 import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 class screen06 extends React.Component {
   render() {
-    return <div className="screen06 screen">screen06</div>;
+    const settings = {
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 6000,
+    };
+    return (
+      <div className="screen06 screen">
+        <Slider {...settings}>
+          <div className="slick__box">
+            <img src="/" />
+            <div className="desc"></div>
+          </div>
+          <div className="slick__box">
+            <img src="/" />
+            <div className="desc"></div>
+          </div>
+          <div className="slick__box">
+            <img src="/" />
+            <div className="desc"></div>
+          </div>
+          <div className="slick__box">
+            <img src="/" />
+            <div className="desc"></div>
+          </div>
+          <div className="slick__box">
+            <img src="/" />
+            <div className="desc"></div>
+          </div>
+        </Slider>
+      </div>
+    );
   }
 }
 
