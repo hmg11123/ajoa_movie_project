@@ -5,8 +5,8 @@ class screen02 extends React.Component {
     return (
       <div className="screen02 screen">
         <div className="screen02__main">
-          <div className="screen2__mockup">mockup</div>
-          <div className="screen02__text">text</div>
+          <div className="screen2__mockup"></div>
+          <div className="screen02__txt">text</div>
         </div>
       </div>
     );
