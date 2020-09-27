@@ -5,7 +5,7 @@ class screen02 extends React.Component {
     return (
       <div className="screen02 screen">
         <div className="screen02__main">
-          <div className="screen2__mockup"></div>
+          <div className="screen02__mockup"></div>
 
           <div className="screen02__txt">
             <div className="screen02__txt1">오늘의 영화</div>
