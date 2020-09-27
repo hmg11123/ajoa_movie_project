@@ -2,8 +2,7 @@
   position: absolute;
   background-color: none;
 }
-.logo__col1 {
-}
+
 .title {
   display: flex;
   flex-direction: row;
