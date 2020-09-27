@@ -15,38 +15,40 @@ class screen06 extends React.Component {
     };
     return (
       <div className="screen06 screen">
-        <Slider {...settings}>
-          <div className="slick__box">
-            <div className="slick__box-content">
-              <img src="/" />
-              <div className="desc"></div>
+        <div>
+          <Slider {...settings}>
+            <div className="slick__box">
+              <div className="slick__box-content">
+                <img src="/" />
+                <div className="desc"></div>
+              </div>
             </div>
-          </div>
-          <div className="slick__box">
-            <div className="slick__box-content">
-              <img src="/" />
-              <div className="desc"></div>
+            <div className="slick__box">
+              <div className="slick__box-content">
+                <img src="/" />
+                <div className="desc"></div>
+              </div>
             </div>
-          </div>
-          <div className="slick__box">
-            <div className="slick__box-content">
-              <img src="/" />
-              <div className="desc"></div>
+            <div className="slick__box">
+              <div className="slick__box-content">
+                <img src="/" />
+                <div className="desc"></div>
+              </div>
             </div>
-          </div>
-          <div className="slick__box">
-            <div className="slick__box-content">
-              <img src="/" />
-              <div className="desc"></div>
+            <div className="slick__box">
+              <div className="slick__box-content">
+                <img src="/" />
+                <div className="desc"></div>
+              </div>
             </div>
-          </div>
-          <div className="slick__box">
-            <div className="slick__box-content">
-              <img src="/" />
-              <div className="desc"></div>
+            <div className="slick__box">
+              <div className="slick__box-content">
+                <img src="/" />
+                <div className="desc"></div>
+              </div>
             </div>
-          </div>
-        </Slider>
+          </Slider>
+        </div>
       </div>
     );
   }

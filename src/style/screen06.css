@@ -1,4 +1,8 @@
 .screen06 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#ee5253, #ff9f43);
+  color: white;
 }
 
 .screen06 .slick__box {
