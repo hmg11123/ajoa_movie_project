@@ -23,18 +23,17 @@
 }
 
 .screen06 .title {
-  font-size: 35px;
+  font-size: 65px;
   font-weight: 800;
 }
 
 .screen06 .content {
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
 }
 
 .screen06 .content li {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 30px;
 }
 .screen06 .slick__box-content img {
   width: 170px;
