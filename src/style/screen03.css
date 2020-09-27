@@ -1,26 +1,24 @@
 .screen03 {
   width: 100%;
   height: 100vh;
+  background-color: rebeccapurple;
 }
 
 .screen03 .screen03__main {
   width: 100%;
-  height: 700px;
+  height: 100%;
 
   display: flex;
-  flex-direction: row;
-
-  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .screen03 .screen03__main .screen03__mockup img {
   width: 312px;
   height: 610px;
   border-radius: 30px;
-
   background-color: blue;
-  margin-left: 290px;
-  margin-top: 35px;
+  /* margin-left: 480px; */
 }
 
 .screen03 .screen03__txt {

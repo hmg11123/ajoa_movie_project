@@ -4,4 +4,3 @@ export { default as screen03 } from "./screen03";
 export { default as screen04 } from "./screen04";
 export { default as screen05 } from "./screen05";
 export { default as screen06 } from "./screen06";
-export { default as screen07 } from "./screen07";
