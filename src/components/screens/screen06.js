@@ -17,24 +17,34 @@ class screen06 extends React.Component {
       <div className="screen06 screen">
         <Slider {...settings}>
           <div className="slick__box">
-            <img src="/" />
-            <div className="desc"></div>
+            <div className="slick__box-content">
+              <img src="/" />
+              <div className="desc"></div>
+            </div>
           </div>
           <div className="slick__box">
-            <img src="/" />
-            <div className="desc"></div>
+            <div className="slick__box-content">
+              <img src="/" />
+              <div className="desc"></div>
+            </div>
           </div>
           <div className="slick__box">
-            <img src="/" />
-            <div className="desc"></div>
+            <div className="slick__box-content">
+              <img src="/" />
+              <div className="desc"></div>
+            </div>
           </div>
           <div className="slick__box">
-            <img src="/" />
-            <div className="desc"></div>
+            <div className="slick__box-content">
+              <img src="/" />
+              <div className="desc"></div>
+            </div>
           </div>
           <div className="slick__box">
-            <img src="/" />
-            <div className="desc"></div>
+            <div className="slick__box-content">
+              <img src="/" />
+              <div className="desc"></div>
+            </div>
           </div>
         </Slider>
       </div>

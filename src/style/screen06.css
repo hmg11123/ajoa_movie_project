@@ -1,12 +1,18 @@
 .screen06 {
-  background-color: rebeccapurple;
 }
 
 .screen06 .slick__box {
-  width: 50px;
-  height: 300px;
+  width: 293px;
+  height: 456px;
   box-shadow: 1px 1px 1px black;
   transition: 1s;
+  margin: 0 auto;
+}
+
+.screen06 .slick__box-content {
+  width: 253px;
+  height: 406px;
+  background-color: rebeccapurple;
 }
 
 .screen06 .slick__box:hover {
