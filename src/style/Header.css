@@ -2,20 +2,22 @@
   position: absolute;
   background-color: none;
 }
+.logo__col1 {
+}
 .title {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
 }
 .menu__col1 {
-  margin-left: 800px;
-  margin-right: 20px;
-  font-size: 17px;
+  margin-left: 870px;
+  margin-right: 60px;
+  font-size: 20px;
   color: #ffffff;
   cursor: pointer;
 }
 .menu__col2 {
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
   cursor: pointer;
 }
