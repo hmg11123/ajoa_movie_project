@@ -11,14 +11,17 @@ class Footer extends React.Component {
           <div className="footer1__txt3"></div>
         </div>
 
-        <div className="footer2">footer2</div>
+        <div className="footer2">
           <div className="footer2__title">영화 광고 문의</div>
           <div className="footer2__txt"></div>
-
-        <div className="footer3">footer3</div>
-          <div className="footer3__title">제작자 이메일</div>
-
+        
         </div>
+
+        <div className="footer3">
+          <div className="footer3__title">제작자 이메일</div>
+        </div>
+
+      </div>
       
       
 
