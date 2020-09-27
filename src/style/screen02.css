@@ -8,18 +8,16 @@
   height: 700px;
 
   display: flex;
-  flex-direction: row;
 
   margin-top: 60px;
 }
 
-.screen02 .screen02__main .screen02__mockup {
-  width: 312px;
+.screen02 .screen02__main .screen02__mockup img {
+  width: 310px;
   height: 610px;
   border-radius: 30px;
 
-  background-color: blue;
-  margin-left: 290px;
+  margin-left: 280px;
   margin-top: 35px;
 }
 
@@ -31,6 +29,7 @@
 
   display: flex;
   flex-direction: column;
+
   align-items: center;
   justify-content: center;
 }
@@ -42,6 +41,7 @@
 
   display: flex;
   flex-direction: column;
+
   align-items: center;
   justify-content: center;
 }
@@ -53,6 +53,7 @@
 
   display: flex;
   flex-direction: column;
+
   align-items: center;
   justify-content: center;
 }
