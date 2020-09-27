@@ -6,7 +6,6 @@ import {
   screen04,
   screen05,
   screen06,
-  screen07,
 } from "../screens";
 import { Route } from "react-router-dom";
 
@@ -20,7 +19,6 @@ class Content extends React.Component {
         <Route exact path="/" component={screen04} />
         <Route exact path="/" component={screen05} />
         <Route exact path="/" component={screen06} />
-        <Route exact path="/" component={screen07} />
       </div>
     );
   }

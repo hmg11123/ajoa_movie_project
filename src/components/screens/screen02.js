@@ -12,7 +12,7 @@ class screen02 extends React.Component {
 
           <div className="screen02__txt">
             <div className="screen02__txt1">코로나무비</div>
-            <div className="screen02__txt2">영화의 모든것을 알려준다 !!</div>
+            <div className="screen02__txt2">어떤 영화인지 궁금하신가요?</div>
           </div>
         </div>
       </div>
