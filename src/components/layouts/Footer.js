@@ -9,7 +9,7 @@ class Footer extends React.Component {
           <div className="footer1__txt2">text</div>
 
         <div className="footer2">footer2</div>
-          <Button>벚튼 ㅇㅋ 확인</Button>
+          
           <div className="footer2__text"></div>
 
 
