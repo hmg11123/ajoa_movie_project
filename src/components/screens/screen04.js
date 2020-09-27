@@ -11,11 +11,8 @@ class screen04 extends React.Component {
           </div>
 
           <div className="screen04__txt">
-            <div className="screen04__txt1">
-              영화들로 선물을 받아보다! 너도나도 재밌게 즐긴다!!
-            </div>
-            <div className="screen04__txt1">점점 더 즐거운 영화타임!!</div>
-            <div className="screen04__txt2"></div>
+            <div className="screen04__txt1">즐거움 2배 기쁨도 2배!</div>
+            <div className="screen04__txt2">무비 선물 받아가세요 ~</div>
           </div>
         </div>
       </div>
