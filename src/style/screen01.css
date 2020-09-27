@@ -8,6 +8,12 @@
   background: linear-gradient(#ee5253, #ff9f43);
   color: white;
 }
-.screen01__title__col1 {
-  font-size: 30px;
+
+.screen01__mockup {
+  width: 312px;
+  height: 610px;
+  border-radius: 30px;
+  margin-left: 60px;
+
+  background-color: blue;
 }

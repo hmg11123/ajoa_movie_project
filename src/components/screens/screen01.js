@@ -6,6 +6,7 @@ class screen01 extends React.Component {
       <div className="screen01 screen">
         <div className="screen01__col1">
           <div className="screen01__title__col1"></div>
+          <div className="screen01__mockup"></div>
         </div>
       </div>
     );
