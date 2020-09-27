@@ -5,8 +5,11 @@ class screen02 extends React.Component {
     return (
       <div className="screen02 screen">
         <div className="screen02__main">
-          <div className="screen2__mockup">스마트폰</div>
-          <div className="screen02__txt">텍스트의 텍스트</div>
+          <div className="screen2__mockup"></div>
+          <div className="screen02__txt">
+            <div className="screen02__txt1">txt1</div>
+            <div className="screen02__txt2">txt2</div>
+          </div>
         </div>
       </div>
     );
