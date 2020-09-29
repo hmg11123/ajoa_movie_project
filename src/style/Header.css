@@ -3,23 +3,25 @@
   background-color: none;
 }
 .logo__col1 {
+  margin-left: 380px;
+  margin-top: 30px;
   width: 200px;
   height: 85px;
 }
 
-.title {
+.Header .menu {
   display: flex;
   flex-direction: row;
 }
-.menu__col1 {
-  margin-left: 870px;
+.menu .menu__col1 {
+  margin-left: 1330px;
   margin-right: 60px;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
   cursor: pointer;
 }
-.menu__col2 {
-  font-size: 20px;
+.menu .menu__col2 {
+  font-size: 30px;
   color: #ffffff;
   cursor: pointer;
 }
