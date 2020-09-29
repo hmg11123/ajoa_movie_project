@@ -1,27 +1,16 @@
 .Header {
+  width: 100%;
   position: absolute;
   background-color: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 .logo__col1 {
-  margin-left: 380px;
-  margin-top: 30px;
   width: 200px;
   height: 85px;
 }
-
-.Header .menu {
-  display: flex;
-  flex-direction: row;
-}
-.menu .menu__col1 {
-  margin-left: 1330px;
-  margin-right: 60px;
-  font-size: 30px;
-  color: #ffffff;
-  cursor: pointer;
-}
-.menu .menu__col2 {
-  font-size: 30px;
-  color: #ffffff;
-  cursor: pointer;
+.menu__col1,
+.menu__col2 {
+  font-size: 16px;
 }

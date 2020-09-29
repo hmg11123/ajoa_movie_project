@@ -1,41 +1,5 @@
 .screen01 {
   width: 100%;
   height: 100vh;
-}
-.screen01__col1 {
-  width: 100%;
-  height: 100%;
   background: linear-gradient(#ee5253, #ff9f43);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.screen01__mockup {
-  width: 312px;
-  height: 610px;
-  border-radius: 30px;
-  margin-left: 60px;
-  position: absolute;
-  background-image: url("https://post-phinf.pstatic.net/MjAyMDA3MTdfMjI4/MDAxNTk0OTYzNDQ2NzMy.kUWn3KzDbTWVBMrFQwbbmWwtDxjZM7rroqmL86TI45Ig._VUVmCTypiCEsXJwfPsoW30frCSyvfpE2zPqi4Ta004g.GIF/GIF_2020-07-17_%EC%98%A4%ED%9B%84_12-51-53.gif?type=w1200");
-}
-.main {
-  color: black;
-  margin-top: 300px;
-}
-.main__col1 {
-  font-size: 40px;
-}
-.main__col2 {
-  font-size: 40px;
-}
-.main__col3 {
-  font-size: 40px;
-  color: black;
-}
-.main__col4 {
-  font-size: 50px;
-  color: black;
-  font-family: "Noto Sans KR", sans-serif;
 }
