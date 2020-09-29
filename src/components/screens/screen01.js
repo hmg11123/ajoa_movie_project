@@ -10,7 +10,10 @@ class screen01 extends React.Component {
             <img src={mockup}></img>
           </div>
 
-          <div className=""></div>
+          <div className="screen01__txt">
+            <div className="screen01__txt1">Hello</div>
+            <div className="screen01__txt2">mo</div>
+          </div>
         </div>
       </div>
     );
