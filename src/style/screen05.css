@@ -20,3 +20,43 @@
   margin-left: 280px;
   margin-top: 55px;
 }
+
+.screen05 .screen05__txt {
+  width: 30%;
+  height: 20%;
+
+  margin-top: 230px;
+  margin-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.screen05__txt .screen05__txt1 {
+  width: 100%;
+  height: 100%;
+
+  font-size: 45px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.screen05__txt .screen05__txt2 {
+  width: 100%;
+  height: 100%;
+
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
