@@ -10,7 +10,12 @@
   width: 200px;
   height: 85px;
 }
-.menu__col1,
-.menu__col2 {
-  font-size: 16px;
+.menu {
+  margin-top: 20px;
+  margin-right: 90px;
+}
+.menu .menu__col1,
+.menu .menu__col2 {
+  font-size: 28px;
+  font-weight: 390;
 }
