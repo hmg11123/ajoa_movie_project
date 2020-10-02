@@ -11,18 +11,18 @@
   height: 85px;
 }
 .menu {
-  margin-top: 50px;
-  margin-right: 90px;
+  margin-top: 35px;
+  margin-right: 60px;
 }
 .menu .menu__col1,
 .menu .menu__col2 {
-  font-size: 35px;
+  font-size: 17px;
   font-weight: 390;
   cursor: pointer;
 }
 .menu .menu__col1 {
-  margin-right: 60px;
+  margin-right: 70px;
 }
 .menu .menu__col2 {
-  margin-right: 500px;
+  margin-right: 45px;
 }
