@@ -10,7 +10,6 @@
 }
 
 .footer__main {
-  background-color: royalblue;
   width: 1215px;
   height: 808px;
   display: flex;
@@ -31,8 +30,8 @@
 .footer .footer1,
 .footer .footer2,
 .footer .footer3 {
-  width: 947px;
-  height: 223px;
+  width: 955px;
+  height: 220px;
   background-color: salmon;
 }
 /*---------------footer1---------------*/
