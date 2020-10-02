@@ -12,7 +12,7 @@ class screen01 extends React.Component {
 
           <div className="screen01__txt">
             <div className="screen01__txt1">Hello</div>
-            <div className="screen01__txt2">mo</div>
+            <div className="screen01__txt2">phone</div>
           </div>
         </div>
       </div>
