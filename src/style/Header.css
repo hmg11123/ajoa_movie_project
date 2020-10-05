@@ -7,8 +7,10 @@
   color: white;
 }
 .logo__col1 {
-  width: 200px;
-  height: 85px;
+  width: 120px;
+  height: 55px;
+  margin-left: 250px;
+  margin-top: 10px;
 }
 .menu {
   margin-top: 35px;
@@ -24,5 +26,5 @@
   margin-right: 70px;
 }
 .menu .menu__col2 {
-  margin-right: 45px;
+  margin-right: 95px;
 }
