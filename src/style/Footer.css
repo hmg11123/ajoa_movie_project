@@ -61,7 +61,11 @@
 }
 
 .a {
-  color: rgb(181,181,181);
+  color:#aaaaaa;
+}
+
+.a:hover {
+  color:#92A8D1;
 }
 
 
