@@ -61,3 +61,6 @@
   align-items: center;
   justify-content: center;
 }
+.screen01__txt .screen01__img {
+  margin-top: 40px;
+}
