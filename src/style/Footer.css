@@ -32,8 +32,8 @@
 .footer .footer1 .footer1__title,
 .footer .footer2 .footer2__title,
 .footer .footer3 .footer3__title {
-  font-size: 45px;
-  margin: 5px;
+  font-size: 35px;
+  margin: 0px 0px 5px;
 }
 
 .footer__txt,
@@ -43,18 +43,25 @@
 }
 
 .footer .footer1,
-.footer .footer2,
 .footer .footer3 {
   width: 955px;
-  height: 220px;
+  height: 220px;  
   border-bottom: 0.9px solid #fff;
 }
 
-
+.footer .footer2 {
+  width: 955px;
+  height: 160px;
+  border-bottom: 0.9px solid #fff;
+}
 
 .footer__txt,
 .footer3__gmail {
   color:rgb(181,181,181);
+}
+
+.a {
+  color: rgb(181,181,181);
 }
 
 

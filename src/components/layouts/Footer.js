@@ -21,10 +21,18 @@ class Footer extends React.Component {
 
           <div className="footer3">
             <div className="footer3__title">제작자 이메일</div>
-            <div className="footer3__gmail">faner4567@gmail.com</div>
-            <div className="footer3__gmail">7ygfdshjkl</div>
-            <div className="footer3__gmail">wjddmswls0403@gmail.com</div>
-            <div className="footer3__gmail">ouhouh0000@gmail.com</div>
+            <div className="footer3__gmail">
+            <a href="mailto:faner4567@gmail.com" className="a">faner4567@gmail.com</a>
+            </div>
+            <div className="footer3__gmail">
+              <a href="mailto:4leaf.hmg@gmail.com" className="a">4leaf.hmg@gmail.com</a>
+            </div>
+            <div className="footer3__gmail">
+              <a href="mailto:wjddmswls0403@gmail.com" className="a">wjddmswls0403@gmail.com</a>
+            </div>
+            <div className="footer3__gmail">
+              <a href="mailto:ouhouh0000@gmail.com" className="a">ouhouh0000@gmail.com</a>
+            </div>
           </div>
         </div>
       </div>
