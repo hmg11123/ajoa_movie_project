@@ -12,8 +12,18 @@ class screen01 extends React.Component {
               <div className="screen01__txt1">길게길게길게길게길게</div>
               <div className="screen01__txt2">목업목업목업목업목업</div>
               <div className="screen01__img">
-                <img src="http://leafsoftware.cafe24.com/ajoa/assets/images/MM00/btn-top-google.png"></img>
-                <img src="http://leafsoftware.cafe24.com/ajoa/assets/images/MM00/btn-top-apple.png"></img>
+                <a
+                  className="img__col1"
+                  href="https://play.google.com/store/apps/details?id=rocateer.ajoa"
+                >
+                  <img src="http://leafsoftware.cafe24.com/ajoa/assets/images/MM00/btn-top-google.png"></img>
+                </a>
+                <a
+                  className="img__col2"
+                  href="https://apps.apple.com/us/app/%EC%95%84%EC%A1%B0%EC%95%84-ajoa/id1494672868"
+                >
+                  <img src="http://leafsoftware.cafe24.com/ajoa/assets/images/MM00/btn-top-apple.png"></img>
+                </a>
               </div>
             </div>
           </Fade>

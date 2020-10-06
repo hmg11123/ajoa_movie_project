@@ -64,3 +64,10 @@
 .screen01__txt .screen01__img {
   margin-top: 40px;
 }
+.screen01__txt .screen01__img .img__col1 {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.screen01__txt .screen01__img .img__col2 {
+  cursor: pointer;
+}
