@@ -11,6 +11,19 @@
   display: flex;
 }
 
+.screen01 .screen01__main .screen01__mockup {
+  width: 450px;
+  height: 772px;
+}
+.screen01 .screen01__main .screen01__mockup .mockup__img {
+  width: 250px;
+  height: 300px;
+  background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDA4MDVfOTMg/MDAxNTk2NjI4MTg5NDI5.arVJto28FJCOOF5eT01ixIDoxnTIMQ0PrX_aOVe_3ocg.pcNQ7LC0sFCCTtX2yRcTeGvcRuVYIfgseVWqIuiqkYcg.JPEG.toosj895/%EB%8B%B4%EB%B3%B4.jpg?type=w800");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .screen01 .screen01__main .screen01__mockup img {
   width: 400px;
   height: 772px;
@@ -18,10 +31,6 @@
 
   margin-left: 270px;
   margin-top: 140px;
-  background-image: url("https://lh3.googleusercontent.com/proxy/-TlzdO_hbgTI4b6Nf_J8jAGny54GcbdqdZsFL_Rhk2osiAABRyGedOitvwzPNBPLOEBWUSawoxrtdLwgf4lB0wd0w-0RxLerXS3DuKBRSUN56ajSNg5jIi0");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .screen01 .screen01__txt {

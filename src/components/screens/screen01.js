@@ -9,8 +9,8 @@ class screen01 extends React.Component {
         <div className="screen01__main">
           <Fade left>
             <div className="screen01__txt">
-              <div className="screen01__txt1">길게길게길게길게길게</div>
-              <div className="screen01__txt2">목업목업목업목업목업</div>
+              <div className="screen01__txt1">빛 떄려다 혹 붙었다</div>
+              <div className="screen01__txt2">예고 없이 찾아온 9살</div>
               <div className="screen01__img">
                 <a
                   className="img__col1"
@@ -29,7 +29,8 @@ class screen01 extends React.Component {
           </Fade>
           <Fade right>
             <div className="screen01__mockup">
-              <img src={mockup}></img>
+              <img src={mockup} />
+              <div className="mockup__img"></div>
             </div>
           </Fade>
         </div>
