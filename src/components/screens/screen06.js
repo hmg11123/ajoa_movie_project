@@ -15,7 +15,7 @@ class screen06 extends React.Component {
       autoplaySpeed: 6000,
     };
     return (
-      <div className="screen06 screen">
+      <div id="screen06" className="screen06 screen">
         <Fade bottom cascade>
           <div className="title">코로나 무비의 영화를 만나보세요</div>
           <ul className="content">
