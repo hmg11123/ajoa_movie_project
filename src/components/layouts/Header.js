@@ -15,8 +15,11 @@ class Header extends React.Component {
     super(props);
 
     this.state = {
-      scrollTo: function () {
-        scroll.scrollTo(100);
+      scrollToScreen06: function () {
+        scroll.scrollTo(3615);
+      },
+      scrollToFooter: function () {
+        scroll.scrollTo(4615);
       },
       scrollMore: function () {
         scroll.scrollMore(100);
@@ -24,24 +27,23 @@ class Header extends React.Component {
     };
   }
   render() {
+    const { scrollToScreen06, scrollToFooter } = this.state;
     return (
       <div className="Header">
         <span className="logo">
           <img className="logo__col1" src={logo} />
         </span>
         <span className="menu">
-          <span className="menu__col1" onClick={this._menuBtnClickHandler}>
+          <span className="menu__col1" onClick={scrollToScreen06}>
             개봉 예정작
           </span>
-          <span className="menu__col2">광고 문의</span>
+          <span className="menu__col2" onClick={scrollToFooter}>
+            광고 문의
+          </span>
         </span>
       </div>
     );
   }
-
-  _menuBtnClickHandler = () => {
-    console.log("sfsd");
-  };
 }
 
 export default Header;
