@@ -16,12 +16,15 @@
   height: 772px;
 }
 .screen01 .screen01__main .screen01__mockup .mockup__img {
-  width: 250px;
-  height: 300px;
+  width: 340px;
+  height: 720px;
   background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDA4MDVfOTMg/MDAxNTk2NjI4MTg5NDI5.arVJto28FJCOOF5eT01ixIDoxnTIMQ0PrX_aOVe_3ocg.pcNQ7LC0sFCCTtX2yRcTeGvcRuVYIfgseVWqIuiqkYcg.JPEG.toosj895/%EB%8B%B4%EB%B3%B4.jpg?type=w800");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-left: 300px;
+  margin-top: 165px;
+  border-radius: 40px;
 }
 
 .screen01 .screen01__main .screen01__mockup img {
@@ -31,6 +34,7 @@
 
   margin-left: 270px;
   margin-top: 140px;
+  position: absolute;
 }
 
 .screen01 .screen01__txt {
