@@ -10,6 +10,7 @@ class screen03 extends React.Component {
           <Fade left>
             <div className="screen03__mockup">
               <img src={mockup}></img>
+              <div className="mockup__img"></div>
             </div>
           </Fade>
           <Fade right>

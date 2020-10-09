@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
 
-  background-color: palegoldenrod;
+  background-color: yellow;
 }
 
 .screen03 .screen03__main {
@@ -19,6 +19,21 @@
 
   margin-left: 280px;
   margin-top: 55px;
+  position: absolute;
+}
+
+.screen03 .screen03__main .screen03__mockup .mockup__img {
+  width: 270px;
+  height: 580px;
+  border-radius: 30px;
+
+  background-image: url("https://file.osen.co.kr/article/2020/09/10/202009101849775434_5f59f8d18df5a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-left: 300px;
+  margin-top: 70px;
 }
 
 .screen03 .screen03__txt {
