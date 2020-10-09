@@ -19,7 +19,7 @@ class screen06 extends React.Component {
         <Fade bottom cascade>
           <div className="title">코로나 무비의 영화를 만나보세요</div>
           <ul className="content">
-            <li>뽜밤! 영화가 상영됩니다!</li>
+            <li>띵동! 영화가 상영됩니다!</li>
             <li>여러분에 추천하는 영화들을</li>
             <li>다양한 분야로 보여드리겠습니다</li>
           </ul>
