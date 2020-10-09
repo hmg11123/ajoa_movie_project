@@ -17,8 +17,23 @@
   height: 610px;
   border-radius: 30px;
 
-  margin-left: 280px;
-  margin-top: 90px;
+  margin-left: 270px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.screen02 .screen02__main .screen02__mockup .mockup__img {
+  width: 310px;
+  height: 610px;
+  border-radius: 30px;
+
+  background-image: url("https://t1.daumcdn.net/cfile/blog/243BD43352DD1B5D12");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-left: 270px;
+  margin-top: 100px;
 }
 
 .screen02 .screen02__txt {
