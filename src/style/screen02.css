@@ -23,8 +23,8 @@
 }
 
 .screen02 .screen02__main .screen02__mockup .mockup__img {
-  width: 310px;
-  height: 610px;
+  width: 270px;
+  height: 570px;
   border-radius: 30px;
 
   background-image: url("https://t1.daumcdn.net/cfile/blog/243BD43352DD1B5D12");
@@ -32,8 +32,8 @@
   background-repeat: no-repeat;
   background-position: center center;
 
-  margin-left: 270px;
-  margin-top: 100px;
+  margin-left: 285px;
+  margin-top: 120px;
 }
 
 .screen02 .screen02__txt {
