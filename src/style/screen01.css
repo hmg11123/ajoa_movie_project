@@ -70,7 +70,7 @@
   height: 100%;
 
   font-size: 25px;
-  margin-top: 65px;
+  margin-top: 85px;
 
   display: flex;
   flex-direction: column;
@@ -78,13 +78,16 @@
   align-items: center;
   justify-content: center;
 }
+
 .screen01__txt .screen01__img {
-  margin-top: 40px;
+  margin-top: 50px;
 }
+
 .screen01__txt .screen01__img .img__col1 {
-  margin-right: 30px;
+  margin-right: 40px;
   cursor: pointer;
 }
+
 .screen01__txt .screen01__img .img__col2 {
   cursor: pointer;
 }
