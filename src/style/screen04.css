@@ -18,6 +18,21 @@
   border-radius: 30px;
   margin-left: 20px;
   margin-top: 85px;
+  position: absolute;
+}
+
+.screen04 .screen04__main .screen04__mockup .mockup__img {
+  width: 300px;
+  height: 600px;
+  border-radius: 30px;
+
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.donga.com%2Fnews%2FCulture%2Farticle%2Fall%2F20200809%2F102369337%2F1&psig=AOvVaw2tmMsHEST04Lnt1KB26LRO&ust=1602332830051000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjayb_Bp-wCFQAAAAAdAAAAABAD");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-left: 300px;
+  margin-top: 70px;
 }
 
 .screen04 .screen04__txt {
