@@ -65,7 +65,9 @@
 }
 
 .a:hover {
-  color:#92A8D1;
+  color:#eee;
+  border-bottom: 1.9px solid #fff;
+
 }
 
 
