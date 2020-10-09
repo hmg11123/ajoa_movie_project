@@ -79,6 +79,20 @@
   justify-content: center;
 }
 
+.screen01__txt .screen01__txt3 {
+  width: 100%;
+  height: 100%;
+
+  font-size: 25px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
 .screen01__txt .screen01__img {
   margin-top: 50px;
 }
