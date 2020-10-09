@@ -15,11 +15,9 @@ class screen02 extends React.Component {
           </Fade>
           <Fade right>
             <div className="screen02__txt">
-              <div className="screen02__txt1">
-                1982년 충청도를
-                <div className="screen02__txt1">뒤흔든 전설의</div>
-                <div className="screen02__txt1">대박사건!!</div>
-              </div>
+              <div className="screen02__txt1">1982년 충청도를</div>
+              <div className="screen02__txt1">뒤흔든 전설의</div>
+              <div className="screen02__txt1">대박사건!!</div>
 
               <div className="screen02__txt2">
                 요즘 연애는 연애도 아니여~~!!

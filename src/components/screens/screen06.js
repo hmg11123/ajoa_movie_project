@@ -56,6 +56,24 @@ class screen06 extends React.Component {
                   <div className="desc"></div>
                 </div>
               </div>
+              <div className="slick__box">
+                <div className="slick__box-content">
+                  <img src="/" />
+                  <div className="desc"></div>
+                </div>
+              </div>
+              <div className="slick__box">
+                <div className="slick__box-content">
+                  <img src="/" />
+                  <div className="desc"></div>
+                </div>
+              </div>
+              <div className="slick__box">
+                <div className="slick__box-content">
+                  <img src="/" />
+                  <div className="desc"></div>
+                </div>
+              </div>
             </Slider>
           </div>
         </Fade>
