@@ -9,13 +9,9 @@ class screen04 extends React.Component {
         <div className="screen04__main">
           <Fade left>
             <div className="screen04__txt">
-              <div className="screen04__txt1">즐거움 2배 기쁨도 2배!</div>
-              <div className="screen04__txt2">
-                바쁜 날 빨리 볼 수 있게 영화예고편 다~ 모아봤다!!
-              </div>
-              <div className="screen04__txt3">
-                내가 보고싶은 영화 미리보기 !
-              </div>
+              <div className="screen04__txt1">즐거움 기쁨도 2배</div>
+              <div className="screen04__txt2">ㅋㅋㅋㅋ</div>
+              <div className="screen04__txt3">영화 뭐?</div>
             </div>
           </Fade>
           <Fade right>
