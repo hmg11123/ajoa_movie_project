@@ -55,7 +55,7 @@
   width: 100%;
   height: 100%;
 
-  font-size: 65px;
+  font-size: 10px;
 
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@
 
 @media (max-width: 1600px) {
   .screen02__txt .screen02__txt1 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .screen02 .screen02__main .screen02__mockup img {
   }
@@ -94,7 +94,7 @@
 
 @media (max-width: 1275px) {
   .screen02__txt .screen02__txt1 {
-    font-size: 40px;
+    font-size: 40.9px;
   }
 }
 
