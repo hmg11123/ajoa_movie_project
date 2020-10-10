@@ -49,14 +49,14 @@
   width: 170px;
   height: 230px;
   background-size: cover;
-  background-color: rebeccapurple;
+  background-color: skyblue;
 }
 
 .screen06 .slick__box-content .desc {
   margin-top: 20px;
   width: 170px;
   height: 75px;
-  background-color: rgb(255, 0, 0);
+  background-color: cornflowerblue;
 }
 
 .screen06 .slick__box-content {
@@ -98,6 +98,7 @@
   background-position: center center;
   background-size: cover;
   display: block;
+
   width: 50px;
   height: 100px;
 }

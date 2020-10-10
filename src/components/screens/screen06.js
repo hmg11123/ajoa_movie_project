@@ -12,7 +12,7 @@ class screen06 extends React.Component {
       slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 6000,
+      autoplaySpeed: 5000,
     };
     return (
       <div id="screen06" className="screen06 screen">
