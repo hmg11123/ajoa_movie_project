@@ -29,6 +29,7 @@ class screen06 extends React.Component {
               <div className="slick__box">
                 <div className="slick__box-content">
                   <img src="/" />
+                  <div className="slick__img"></div>
                   <div className="desc"></div>
                 </div>
               </div>
