@@ -7,3 +7,7 @@
 @import "./screen04.css";
 @import "./screen05.css";
 @import "./screen06.css";
+
+body {
+  background-color: #222222;
+}

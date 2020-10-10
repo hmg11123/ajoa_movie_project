@@ -67,6 +67,19 @@ class Footer extends React.Component {
                 </a>
               </div>
             </div>
+            <div className="footer4">
+              <p className="footer4_line"></p>
+              <p>
+                <span>PL : 홍민기</span>
+                <span>UA : 정예림,오은하,정은진</span>
+                <span>TA : 오은하,정은진</span>
+                <span>AA : 정예림,오은하,정은진</span>
+              </p>
+              <p>
+                <span>주소 : 충청남도 공주시 금학동 250-6</span>
+                <span>대표번호 : 010-4496-2415</span>
+              </p>
+            </div>
           </div>
         </Fade>
         <Fade cascade>
