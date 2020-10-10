@@ -80,3 +80,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1110px) {
+  .screen03__txt .screen03__txt1 {
+    font-size: 40px;
+  }
+}
