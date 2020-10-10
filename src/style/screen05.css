@@ -22,6 +22,21 @@
   border-radius: 30px;
   margin-left: 280px;
   margin-top: 55px;
+  position: absolute;
+}
+
+.screen05 .screen05__main .screen05__mockup .mockup__img {
+  width: 290px;
+  height: 600px;
+  border-radius: 30px;
+
+  background-image: url("https://t1.daumcdn.net/movie/c102e85c25a3d50838ef5869ba9cc9bafed3be0a");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-left: 300px;
+  margin-top: 70px;
 }
 
 .screen05 .screen05__txt {

@@ -10,12 +10,13 @@ class screen05 extends React.Component {
           <Fade left>
             <div className="screen05__mockup">
               <img src={mockup}></img>
+              <div className="mockup__img"></div>
             </div>
           </Fade>
 
           <Fade right>
             <div className="screen05__txt">
-              <div className="screen05__txt1">오늘의 영화를</div>
+              <div className="screen05__txt1">오 ! 문희!</div>
               <div className="screen05__txt2">마음껏 누려보세요 !</div>
             </div>
           </Fade>
