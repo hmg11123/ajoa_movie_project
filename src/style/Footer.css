@@ -2,7 +2,6 @@
   width: 100%;
   height: 100vh;
   background-color: #222222;
-  font-weight: 600;
   color: white;
   display: flex;
   align-items: center;
@@ -15,15 +14,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .footer1 {
   margin: 50px;
+  margin-top: 140px;
 }
-
-
-
 
 .footer3 {
   margin-top: 20px;
@@ -32,44 +28,44 @@
 .footer .footer1 .footer1__title,
 .footer .footer2 .footer2__title,
 .footer .footer3 .footer3__title {
-  font-size: 35px;
+  font-size: 45px;
   margin: 0px 0px 5px;
+  font-weight: 600;
 }
 
 .footer__txt,
 .footer .footer3 .footer3__gmail {
   font-size: 23px;
   margin: 15px;
+  font-weight: 500;
 }
 
 .footer .footer1,
 .footer .footer3 {
   width: 955px;
-  height: 220px;  
-  border-bottom: 0.9px solid #fff;
+  height: 220px;
+  border-bottom: 0.9px solid rgb(110, 110, 110);
 }
 
 .footer .footer2 {
   width: 955px;
   height: 160px;
-  border-bottom: 0.9px solid #fff;
+  border-bottom: 0.9px solid rgb(110, 110, 110);
 }
 
 .footer__txt,
 .footer3__gmail {
-  color:rgb(181,181,181);
+  color: rgb(181, 181, 181);
 }
 
 .a {
-  color:#aaaaaa;
+  color: #aaaaaa;
 }
 
 .a:hover {
-  color:#eee;
+  color: #eee;
   border-bottom: 1.9px solid #fff;
-
 }
-
 
 /*---------------footer1---------------*/
 
