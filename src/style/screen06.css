@@ -60,7 +60,7 @@
 }
 
 .screen06 .slick__box-content {
-  transition: 1s;
+  transition: 0.5s;
   width: 253px;
   height: 406px;
   background-color: #fff;
