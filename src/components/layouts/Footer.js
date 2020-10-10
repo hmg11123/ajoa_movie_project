@@ -15,7 +15,7 @@ class Footer extends React.Component {
           </div>
 
           <div className="footer2">
-            <div className="footer2__title">영화 광고 문의</div>
+            <div className="footer2__title">영화 광고 문의는 은진이에게</div>
             <div className="footer__txt">주지마세요</div>
           </div>
 
