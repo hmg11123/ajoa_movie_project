@@ -5,7 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  color: white;
+
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,11 +24,16 @@
   align-items: center;
   width: 293px;
   height: 456px;
+  margin-top: 35px;
 }
 
 .screen06 .title {
   font-size: 65px;
   font-weight: 800;
+}
+
+.screen06 .title span {
+  margin-top: 100px;
 }
 
 .screen06 .content {
@@ -37,6 +43,7 @@
 
 .screen06 .content li {
   font-size: 30px;
+  margin-top: 15px;
 }
 .screen06 .slick__box-content img {
   width: 170px;
@@ -56,9 +63,10 @@
   transition: 1s;
   width: 253px;
   height: 406px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 4px 3px 3px #747d8c;
+
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -67,7 +75,7 @@
 }
 
 .screen06 .slick__box-content:hover {
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px #0b0b0b;
 }
 
 .screen06 .slick-next {
