@@ -11,15 +11,24 @@ class Footer extends React.Component {
     super(props);
 
     this.state = {
-      memoData: null,
       isDialogOpen: false,
 
       input_title: "",
       input_desc: "",
+      input_manager: "",
+      input_mobile: "",
+      input_email: "",
     };
   }
   render() {
-    const { memoData, isDialogOpen, input_title, input_desc } = this.state;
+    const {
+      isDialogOpen,
+      input_title,
+      input_desc,
+      input_manager,
+      input_mobile,
+      input_email,
+    } = this.state;
     return (
       <div className="footer">
         <Fade bottom cascade>
@@ -38,7 +47,7 @@ class Footer extends React.Component {
                 주지마세요
                 <input
                   type="button"
-                  value="광고문의"
+                  value="광고 문의"
                   onClick={this._isDialogOpenToggle}
                 />
               </div>
@@ -88,18 +97,19 @@ class Footer extends React.Component {
             onClose={this._isDialogOpenToggle}
             aria-labelledby="customized-dialog-title"
             open={isDialogOpen}
-            fullWidth={true}
             maxWidth={"md"}
           >
             <DialogTitle
               id="customized-dialog-title"
               onClose={this._isDialogOpenToggle}
+              class="dialog_title"
             >
-              REGISTER MEMO
+              마케팅 및 광고문의
             </DialogTitle>
             <DialogContent>
+              <div>CORONA MOVIE에 영화를 소개하고 싶으신가요?</div>
               <div>
-                <div>제목</div>
+                <div>회사명</div>
                 <input
                   type="text"
                   name="input_title"
@@ -109,7 +119,48 @@ class Footer extends React.Component {
               </div>
 
               <div>
-                <div>내용</div>
+                <div>담당자</div>
+                <input
+                  type="text"
+                  name="input_manager"
+                  value={input_manager}
+                  onChange={this._valueChangeHandler}
+                />
+              </div>
+              <div>
+                <div>전화번호</div>
+                <input
+                  type="text"
+                  name="input_mobile"
+                  value={input_mobile}
+                  onChange={this._valueChangeHandler}
+                />
+              </div>
+              <div>
+                <div>이메일</div>
+                <input
+                  type="text"
+                  name="input_email"
+                  value={input_email}
+                  onChange={this._valueChangeHandler}
+                />
+                @
+                <input
+                  type="text"
+                  name="input_email"
+                  value={input_email}
+                  onChange={this._valueChangeHandler}
+                />
+                .
+                <select name="email_domain_value">
+                  <option>직접입력</option>
+                  <option value="naver.com">naver.com</option>
+                  <option value="gmail.com">gmail.com</option>
+                  <option value="daum.net">daum.net</option>
+                </select>
+              </div>
+              <div>
+                <div>마케팅 및 제휴 문의</div>
                 <input
                   type="text"
                   name="input_desc"

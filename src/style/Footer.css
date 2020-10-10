@@ -63,6 +63,12 @@
   border-bottom: 0.9px solid rgb(110, 110, 110);
 }
 
+.footer2 .footer__txt {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer2 input {
   width: 140px;
   height: 40px;
@@ -70,7 +76,7 @@
   background: none;
   border: none;
   border-radius: 50px;
-  background-color: rgb(202, 78, 130);
+  background: linear-gradient(#fe1775, #f65d5d);
   color: white;
   font-weight: 600;
   font-size: 18px;
