@@ -16,8 +16,10 @@ class screen05 extends React.Component {
 
           <Fade right>
             <div className="screen05__txt">
-              <div className="screen05__txt1">오 ! 문희!</div>
-              <div className="screen05__txt2">마음껏 누려보세요 !</div>
+              <div className="screen05__txt1">코로나 무비를</div>
+              <div className="screen05__txt1"> 마음껏 누려보세요!</div>
+              <div className="screen05__txt2">이런 저런 영화들 다~ 모였다 </div>
+              <div className="screen05__txt3">코로나 무비에서 찾아보세요!!</div>
             </div>
           </Fade>
         </div>

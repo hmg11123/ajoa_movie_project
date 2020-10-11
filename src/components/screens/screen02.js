@@ -15,12 +15,12 @@ class screen02 extends React.Component {
           </Fade>
           <Fade right>
             <div className="screen02__txt">
-              <div className="screen02__txt1">전 세계적으로</div>
-              <div className="screen02__txt1">유행할 코로나 무비</div>
-
-              <div className="screen02__txt2">코로나19에도 개봉하는</div>
+              <div className="screen02__txt1">영화 맞춤 코로나 무비
+              </div>
+              
+              <div className="screen02__txt2">남녀노소 누구든 편안한</div>
               <div className="screen02__txt3">
-                영화를 위해 만들어진 사이트입니다.
+              마음으로 볼 수 있는 영화
               </div>
             </div>
           </Fade>
