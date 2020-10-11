@@ -35,7 +35,7 @@ class screen06 extends React.Component {
 
               <div className="slick__box">
                 <div className="slick__box-content">
-                  <img src="https://lh3.googleusercontent.com/proxy/FOBQmG7gxu08i2J3xmGy16CTDs0j-Kk_WHKk5ceVpJmYXqCvEMsSMued8IBvUjdpHNC9dMO6kaqpHTFeMnH8aGj_M5Rqz3P4ZYSmKDtSitYE5ZU0FrjHnxu5p55yqR_HlQaa6OUIW1pMWAtXD7Fr6cRAPxNIuTMOxT1fThsmOqCNGOflmstTa8L4K-ekY8wlQfQjLHQaRp5qRxwYgM16Li2UE3PRkW4dB4MhbLxcApImEscJeugEXBD4FhesfgrZhmlX5Rrz7ATyXGwvT-iVhNtVVP64dV3hEP79" />
+                  <img src="https://lh3.googleusercontent.com/proxy/T7g-v3Q8D6itqtr25zxgErLfb9Zb_DzWmKKfhMxIO3vHOSy8j7r381UDjLYCVD_xJgIdiu2DO1jTNwLQ8JZQ__9i20DYv7tpytdxrQn4_J4"/>
                   <div className="desc">콰이어트 플레이스</div>
                 </div>
               </div>
