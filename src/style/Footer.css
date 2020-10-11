@@ -37,10 +37,13 @@
 }
 
 .footer4_line {
-  margin: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
-
+.footer4__juso {
+  margin-top: 15px;
+}
 
 .footer .footer1 .footer1__title,
 .footer .footer2 .footer2__title,
