@@ -1,10 +1,11 @@
 .screen01 {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-image: url("http://leafsoftware.cafe24.com/ajoa/uploads/mainBanner/1592530822334_a.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  color: white;
 }
 
 .screen01 .screen01__main {
@@ -107,4 +108,127 @@
 
 .screen01__txt .screen01__img .img__col2 {
   cursor: pointer;
+}
+
+/* @media (max-width: 1920px) {
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    margin-left: 400px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-left: 370px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .screen01__txt .screen01__txt1 {
+    font-size: 35px;
+  }
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    margin-left: 200px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-left: 170px;
+  }
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    width: 250px;
+    height: 540px;
+    margin-top: 230px;
+    margin-left: 195px;
+    border-radius: 20px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-top: 210px;
+    width: 300px;
+    height: 580px;
+  }
+}
+
+@media (max-width: 1156px) {
+  .screen01__txt .screen01__img .img__col1 img {
+    width: 130px;
+    height: 45px;
+  }
+  .screen01__txt .screen01__img .img__col2 img {
+    width: 130px;
+    height: 45px;
+  }
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    width: 210px;
+    height: 450px;
+    margin-top: 220px;
+    margin-left: 190px;
+    border-radius: 20px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-top: 210px;
+    width: 250px;
+    height: 480px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .screen01__txt .screen01__txt1 {
+    font-size: 30px;
+  }
+
+  .screen01__txt .screen01__txt2,
+  .screen01__txt .screen01__txt3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1116px) {
+  .screen01__txt .screen01__img .img__col1 {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 985px) {
+  .screen01__txt .screen01__img .img__col1 {
+    margin-right: 10px;
+  }
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    margin-left: 100px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-left: 80px;
+  } */
+
+@media (max-width: 900px) {
+  .screen01__txt .screen01__txt1 {
+    font-size: 25px;
+  }
+  .screen01__txt .screen01__txt2,
+  .screen01__txt .screen01__txt3 {
+    font-size: 18px;
+  }
+  .screen01__txt .screen01__img img {
+    width: 100px;
+    height: 35px;
+  }
+  .screen01__txt .screen01__img img {
+    width: 100px;
+    height: 35px;
+  }
+  .screen01__txt .screen01__img .img__col1 {
+    margin-right: 10px;
+  }
+
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    width: 300px;
+    height: 600px;
+    margin-left: 30px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-left: 10px;
+    margin-top: 150px;
+    width: 340px;
+    height: 630px;
+  }
+}
+@media (max-width: 700px) {
+}
+@media (max-width: 500px) {
+}
+@media (max-width: 350px) {
 }

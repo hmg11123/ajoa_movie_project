@@ -5,6 +5,7 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogActions from "@material-ui/core/DialogActions";
+import axios from "axios";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -12,12 +13,13 @@ class Footer extends React.Component {
 
     this.state = {
       isDialogOpen: false,
-
+      sendData: [],
       input_title: "",
       input_desc: "",
       input_manager: "",
       input_mobile: "",
       input_email: "",
+      input_domain: "",
     };
   }
   render() {
@@ -27,7 +29,9 @@ class Footer extends React.Component {
       input_desc,
       input_manager,
       input_mobile,
+      input_ed,
       input_email,
+      input_domain
     } = this.state;
 
     return (
@@ -100,12 +104,13 @@ class Footer extends React.Component {
             onClose={this._isDialogOpenToggle}
             aria-labelledby="customized-dialog-title"
             open={isDialogOpen}
+            fullWidth={true}
             maxWidth={"md"}
           >
             <DialogTitle
               id="customized-dialog-title"
               onClose={this._isDialogOpenToggle}
-              class="dialog_title"
+              // class="dialog_title"
             >
               마케팅 및 광고문의
             </DialogTitle>
@@ -150,12 +155,12 @@ class Footer extends React.Component {
                 @
                 <input
                   type="text"
-                  name="input_email"
-                  value={input_email}
+                  name="input_domain"
+                  value={input_domain}
                   onChange={this._valueChangeHandler}
                 />
                 .
-                <select name="email_domain_value">
+                <select name="input_domain" value={input_domain} onChange={this._valueChangeHandler}>
                   <option>직접입력</option>
                   <option value="naver.com">naver.com</option>
                   <option value="gmail.com">gmail.com</option>
@@ -164,7 +169,7 @@ class Footer extends React.Component {
               </div>
               <div>
                 <div>마케팅 및 제휴 문의</div>
-                <input
+                <textarea
                   type="text"
                   name="input_desc"
                   value={input_desc}
@@ -173,8 +178,11 @@ class Footer extends React.Component {
               </div>
             </DialogContent>
             <DialogActions>
-              <Button autoFocus color="primary">
-                SAVE
+              <Button color="primary" onClick={this._addInquiry}>
+                보내기
+              </Button>
+              <Button color="secondary" onClick={this._isDialogOpenToggle}>
+                취소
               </Button>
             </DialogActions>
           </Dialog>
@@ -182,6 +190,54 @@ class Footer extends React.Component {
       </div>
     );
   }
+
+  _addInquiry = async() => {
+    const {input_desc, input_email, input_domain,input_manager, input_title, input_mobile,input_ed} = this.state;
+
+    this.setState({
+      input_ed: input_email + "@" + input_domain
+    })
+
+    const inputData = {
+      companyName: input_title,
+      desc: input_desc ,
+      email:input_ed ,
+      manager: input_manager,
+      mobile: input_mobile,
+    }
+
+    await axios
+      .post(
+        `/api/addAdInquiry`,
+        {
+          params: { inputData },
+        },
+        {
+          heasers: {
+            "Content-Type": "application/json",
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+          }
+        },
+      )
+      .then((response) => {
+        this.setState({
+          sendData: response.data,
+        });
+      });
+
+      this.setState({
+        input_title: "",
+        input_desc: "",
+        input_manager: "",
+        input_mobile: "",
+        input_email: "",
+        input_domain: "",
+        isDialogOpen: !this.state.isDialogOpen,
+      })
+      alert("추가되었습니다")
+      
+  }
+
   _valueChangeHandler = (event) => {
     let nextState = {};
 
