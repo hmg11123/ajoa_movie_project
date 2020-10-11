@@ -9,16 +9,18 @@ class screen04 extends React.Component {
         <div className="screen04__main">
           <Fade left>
             <div className="screen04__txt">
-              <div className="screen04__txt1">즐거움 기쁨도 2배</div>
-              <div className="screen04__txt2">영화</div>
-              <div className="screen04__txt3">영화 뭐?</div>
+              <div className="screen04__txt1">추천 받은 영화로</div>
+              <div className="screen04__txt2">집콕 생활 같이 하자</div>
+
+              <div className="screen04__txt3">현재 상영중인 영화들부터</div>
+              <div className="screen04__txt4">개봉되지 않은 영화들까지 다~ 싹스리 모였다!!</div>
             </div>
           </Fade>
           <Fade right>
             <div className="screen04__mockup">
               <img src={mockup}></img>
               <div className="mockup__img"></div>
-            </div>
+            </div>심
           </Fade>
         </div>
       </div>

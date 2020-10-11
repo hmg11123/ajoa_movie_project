@@ -73,8 +73,7 @@
   width: 100%;
   height: 100%;
 
-  font-size: 45px;
-  margin-top: 85px;
+  font-size: 65px;
 
   display: flex;
   flex-direction: column;
@@ -87,8 +86,20 @@
   width: 100%;
   height: 100%;
 
-  font-size: 25px;
-  margin-top: 10px;
+  font-size: 30px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.screen04__txt .screen04__txt4 {
+  width: 100%;
+  height: 100%;
+
+  font-size: 30px;
 
   display: flex;
   flex-direction: column;
