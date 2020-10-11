@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
 
-  background-image: url("http://leafsoftware.cafe24.com/ajoa/assets/images/MM00/page3-back.png");
+  background: linear-gradient(to bottom, #fbe2e5, #f56a79);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

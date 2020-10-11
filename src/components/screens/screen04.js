@@ -20,7 +20,7 @@ class screen04 extends React.Component {
             <div className="screen04__mockup">
               <img src={mockup}></img>
               <div className="mockup__img"></div>
-            </div>심
+            </div>
           </Fade>
         </div>
       </div>
