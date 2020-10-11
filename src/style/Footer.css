@@ -28,6 +28,7 @@
 .footer4 {
   width: 955px;
   border-top: 1px solid rgb(110, 110, 110);
+  margin-left: 50px;
   margin-bottom: 50px;
   color: #aaaaaa;
   display: flex;
@@ -35,7 +36,7 @@
   align-items: center;
 }
 
-.footer4 .footer4_line {
+.footer4 .footer4__col1 {
   margin-top: 30px;
   margin-right: 20px;
   margin-top: 15px;

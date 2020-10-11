@@ -77,7 +77,7 @@ class Footer extends React.Component {
               </div>
             </div>
             <div className="footer4">
-              <p className="footer4_line"></p>
+              <p className="footer4__col1"></p>
               <p>
                 <span>사업자등록번호:179-520-79626</span>
                 <span> 통신 판매업신고번호:제 2020-충남공주-2360</span>
