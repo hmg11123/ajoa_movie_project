@@ -15,8 +15,8 @@ class screen03 extends React.Component {
           </Fade>
           <Fade right>
             <div className="screen03__txt">
-              <div className="screen03__txt1">영화</div>
-              <div className="screen03__txt2">어떤 영화인지 궁금하신가요?</div>
+              <div className="screen03__txt1">꿀잼 영화 모음집!!</div>
+              <div className="screen03__txt2">어떤 영화일지 궁금하시죠?</div>
             </div>
           </Fade>
         </div>
