@@ -12,8 +12,8 @@ class screen04 extends React.Component {
               <div className="screen04__txt1">추천 받은 영화로</div>
               <div className="screen04__txt2">집콕 생활 같이 하자</div>
 
-              <div className="screen04__txt3">현재 상영중인 영화들부터</div>
-              <div className="screen04__txt4">개봉되지 않은 영화들까지 다~ 싹스리 모였다!!</div>
+              <div className="screen04__txt3">상영중인 영화들부터</div>
+              <div className="screen04__txt4">개봉되지 않은 영화들까지 다~ 싹쓰리 모였다!!</div>
             </div>
           </Fade>
           <Fade right>
