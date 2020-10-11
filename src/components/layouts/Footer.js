@@ -29,22 +29,22 @@ class Footer extends React.Component {
       input_mobile,
       input_email,
     } = this.state;
+
     return (
       <div className="footer">
         <Fade bottom cascade>
           <div className="footer__main">
             <div className="footer1">
-              <div className="footer1__title">영화 안내</div>
+              <div className="footer1__title">영화 신청 안내</div>
               <ul className="footer1__content">
-                <li className="footer__txt">① 없어요</li>
-                <li className="footer__txt">② 없다구요</li>
-                <li className="footer__txt">③ 뭘 바라는거죠 ?</li>
+                <p className="footer__txt">① 코로나 무비 앱 설치 및 가입</p>
+                <p className="footer__txt">② 가입 승인 후 영화 소개</p>
+                <p className="footer__txt">③ 영화 등록 완료</p>
               </ul>
             </div>
             <div className="footer2">
-              <div className="footer2__title">영화 광고 문의는</div>
-              <div className="footer__txt">
-                옒언니에게 !
+              <div className="footer2__title">영화 광고 문의</div>
+              <div className="footer__txt"> 광고 및 제휴 문의 등 코로나 무비가 연락을 기다립니다.
                 <input
                   type="button"
                   value="광고 문의"

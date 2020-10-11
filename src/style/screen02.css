@@ -90,6 +90,7 @@
   align-items: center;
   justify-content: center;
 }
+
 @media (max-width: 1600px) {
   .screen02__txt .screen02__txt1 {
     font-size: 40px;
