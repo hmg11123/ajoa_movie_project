@@ -9,9 +9,7 @@ class screen01 extends React.Component {
         <div className="screen01__main">
           <Fade left>
             <div className="screen01__txt">
-              <div className="screen01__txt1">
-                2020 코로나 무비가
-              </div>
+              <div className="screen01__txt1">2020 코로나 무비가</div>
                 <div className="screen01__txt1">찾아옵니다</div>
               <div className="screen01__txt2">가족과 보기 딱 좋은 영화!</div>
               <div className="screen01__txt3">웃음 + 감동 다 잡아!!!</div>
