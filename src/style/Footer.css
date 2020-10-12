@@ -22,12 +22,10 @@
 
 .footer3 {
   margin-top: 20px;
-  margin-bottom: 140px;
 }
 
 .footer4 {
   width: 955px;
-  border-top: 1px solid rgb(110, 110, 110);
   margin-left: 50px;
   margin-bottom: 50px;
   color: #aaaaaa;
@@ -101,6 +99,11 @@
   color: white;
   font-weight: 600;
   font-size: 18px;
+  transition: 1s;
+}
+
+.footer2 input:hover {
+  box-shadow: 2px 4px 6px #9d4e70;
 }
 
 .footer__txt,

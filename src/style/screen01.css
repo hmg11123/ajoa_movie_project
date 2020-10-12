@@ -1,6 +1,6 @@
 .screen01 {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-image: url("http://leafsoftware.cafe24.com/ajoa/uploads/mainBanner/1592530822334_a.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -227,6 +227,36 @@
   }
 }
 @media (max-width: 700px) {
+  .screen01 .screen01__txt {
+    margin-left: 100px;
+  }
+  .screen01__txt .screen01__txt1 {
+    font-size: 18px;
+  }
+  .screen01__txt .screen01__txt2,
+  .screen01__txt .screen01__txt3 {
+    font-size: 14px;
+  }
+  .screen01__txt .screen01__img img {
+    width: 100px;
+    height: 35px;
+  }
+
+  .screen01__txt .screen01__img .img__col1 {
+    margin-right: 10px;
+  }
+
+  .screen01 .screen01__main .screen01__mockup .mockup__img {
+    width: 300px;
+    height: 600px;
+    margin-left: 30px;
+  }
+  .screen01 .screen01__main .screen01__mockup img {
+    margin-left: 10px;
+    margin-top: 150px;
+    width: 340px;
+    height: 630px;
+  }
 }
 @media (max-width: 500px) {
 }

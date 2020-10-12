@@ -29,3 +29,9 @@
 .menu .menu__col2 {
   margin-right: 95px;
 }
+
+@media (max-width: 700px) {
+  .logo__col1 {
+    margin-left: 100px;
+  }
+}
