@@ -40,11 +40,11 @@ class Footer extends React.Component {
           <div className="footer__main">
             <div className="footer1">
               <div className="footer1__title">영화 신청 안내</div>
-              <ul className="footer1__content">
-                <p className="footer__txt">① 코로나 무비 앱 설치 및 가입</p>
-                <p className="footer__txt">② 가입 승인 후 영화 소개</p>
-                <p className="footer__txt">③ 영화 등록 후 추가 완료!</p>
-              </ul>
+              <div className="footer1__content">
+                <div className="footer__txt">① 코로나 무비 앱 설치 및 가입</div>
+                <div className="footer__txt">② 가입 승인 후 영화 소개</div>
+                <div className="footer__txt">③ 영화 등록 후 추가 완료!</div>
+              </div>
             </div>
             <div className="footer2">
               <div className="footer2__title">영화 광고 문의</div>
@@ -82,8 +82,7 @@ class Footer extends React.Component {
             </div>
             <div className="footer4">
               <p className="footer4__col1"></p>
-              <p>
-                <span>사업자등록번호:179-520-79626</span>
+              <p className="footer4__content">
                 <span> 통신 판매업신고번호:제 2020-충남공주-2360</span>
                 <span>대표이사: 홍민기</span>
                 <span>법인명:(주)코로나무비</span>
@@ -92,7 +91,6 @@ class Footer extends React.Component {
               <p className="footer4__juso">
                 <span>주소: 충청남도 공주시 금학동 250-6</span>
                 <span>대표번호: 010-4923-3908</span>
-                <span>서비스 문의: faner4567@gmail.com</span>
                 <span>제휴 문의: 4leaf.hmg@gmail.com </span>
               </p>
             </div>
