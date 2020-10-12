@@ -225,16 +225,16 @@ class Footer extends React.Component {
         });
       });
 
-      this.setState({
-        input_title: "",
-        input_desc: "",
-        input_manager: "",
-        input_mobile: "",
-        input_email: "",
-        input_domain: "",
-        isDialogOpen: !this.state.isDialogOpen,
-      })
-      alert("추가되었습니다")
+      // this.setState({
+      //   input_title: "",
+      //   input_desc: "",
+      //   input_manager: "",
+      //   input_mobile: "",
+      //   input_email: "",
+      //   input_domain: "",
+      //   isDialogOpen: !this.state.isDialogOpen,
+      // })
+      // alert("추가되었습니다")
       
   }
 
