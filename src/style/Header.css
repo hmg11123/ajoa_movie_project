@@ -10,12 +10,12 @@
 .logo__col1 {
   width: 120px;
   height: 55px;
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 10px;
 }
 .menu {
   margin-top: 35px;
-  margin-right: 60px;
+  margin-right: 140px;
 }
 .menu .menu__col1,
 .menu .menu__col2 {
@@ -29,7 +29,11 @@
 .menu .menu__col2 {
   margin-right: 95px;
 }
-
+@media (max-width: 900px) {
+  .logo {
+    margin-left: -20px;
+  }
+}
 @media (max-width: 700px) {
   .logo__col1 {
     margin-left: 100px;
