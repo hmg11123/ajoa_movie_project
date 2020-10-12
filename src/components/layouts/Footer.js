@@ -85,13 +85,13 @@ class Footer extends React.Component {
               <p>
                 <span>사업자등록번호:179-520-79626</span>
                 <span> 통신 판매업신고번호:제 2020-충남공주-2360</span>
-                <span>대표이사: 오은하</span>
+                <span>대표이사: 홍민기</span>
                 <span>법인명:(주)코로나무비</span>
-                <span>개인정보관리책임자 : 오은하</span>
+                <span>개인정보관리책임자 : 홍민기</span>
               </p>
               <p className="footer4__juso">
                 <span>주소: 충청남도 공주시 금학동 250-6</span>
-                <span>대표번호: 010-5207-9626</span>
+                <span>대표번호: 010-4923-3908</span>
                 <span>서비스 문의: faner4567@gmail.com</span>
                 <span>제휴 문의: 4leaf.hmg@gmail.com </span>
               </p>
