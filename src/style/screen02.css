@@ -95,13 +95,13 @@
 
 @media (max-width: 1600px) {
   .screen02__txt .screen02__txt1 {
-    font-size: 45px;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 1528px) {
   .screen02__txt .screen02__txt1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
