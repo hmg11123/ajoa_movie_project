@@ -108,3 +108,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1600px) {
+  .screen04__txt1 {
+    font-size: 50px;
+  }
+}
