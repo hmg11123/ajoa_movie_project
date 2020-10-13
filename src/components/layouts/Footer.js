@@ -83,15 +83,15 @@ class Footer extends React.Component {
             <div className="footer4">
               <p className="footer4__col1"></p>
               <p className="footer4__content">
-                <span> 통신 판매업신고번호:제 2020-충남공주-2360</span>
-                <span>대표이사: 홍민기</span>
-                <span>법인명:(주)코로나무비</span>
-                <span>개인정보관리책임자 : 홍민기</span>
+                <span>통신 판매업신고번호:제 2020-충남공주-2360</span>
+                <span>｜대표이사: 홍민기</span>
+                <span>｜법인명:(주)코로나무비</span>
+                <span>｜개인정보관리책임자 : 홍민기</span>
               </p>
               <p className="footer4__juso">
                 <span>주소: 충청남도 공주시 금학동 250-6</span>
-                <span>대표번호: 010-4923-3908</span>
-                <span>제휴 문의: 4leaf.hmg@gmail.com </span>
+                <span>｜대표번호: 010-4923-3908</span>
+                <span>｜제휴 문의: 4leaf.hmg@gmail.com </span>
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@ class Footer extends React.Component {
                   value={input_domain}
                   onChange={this._valueChangeHandler}
                 />
-                .
+                
                 <select name="input_domain" value={input_domain} onChange={this._valueChangeHandler}>
                   <option>직접입력</option>
                   <option value="naver.com">naver.com</option>
@@ -216,23 +216,22 @@ class Footer extends React.Component {
             // 'Content-Type': 'application/x-www-form-urlencoded',
           }
         },
-      )
-      .then((response) => {
+      ).then((response) => {
         this.setState({
           sendData: response.data,
         });
-      });
-
-      // this.setState({
-      //   input_title: "",
-      //   input_desc: "",
-      //   input_manager: "",
-      //   input_mobile: "",
-      //   input_email: "",
-      //   input_domain: "",
-      //   isDialogOpen: !this.state.isDialogOpen,
-      // })
-      // alert("추가되었습니다")
+      }).then(
+        this.setState({
+          input_title: "",
+          input_desc: "",
+          input_manager: "",
+          input_mobile: "",
+          input_email: "",
+          input_domain: "",
+          isDialogOpen: !this.state.isDialogOpen,
+        }),
+        alert("추가되었습니다")
+      );
       
   }
 

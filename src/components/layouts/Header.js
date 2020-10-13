@@ -18,10 +18,10 @@ class Header extends React.Component {
 
     this.state = {
       scrollToScreen06: function () {
-        scroll.scrollTo(3615);
+        scroll.scrollTo(4615);
       },
       scrollToFooter: function () {
-        scroll.scrollTo(4615);
+        scroll.scrollTo(5600);
       },
       scrollMore: function () {
         scroll.scrollMore(100);
@@ -32,9 +32,9 @@ class Header extends React.Component {
     const { scrollToScreen06, scrollToFooter } = this.state;
     return (
       <div className="Header">
-        <span className="logo">
-          <img className="logo__col1" src={"image/logo.png"} />
-        </span>
+        <a className="logo" href="/">
+          <img className="logo__col1" src={logo} />
+        </a>
         <span className="menu">
           <span className="menu__col1" onClick={scrollToScreen06}>
             개봉 예정작
