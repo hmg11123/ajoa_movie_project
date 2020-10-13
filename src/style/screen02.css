@@ -215,3 +215,24 @@
     font-size: 10px;
   }
 }
+
+@media (max-width: 613px) {
+  .screen02 .screen02__txt .screen02__txt1 {
+    font-size: 15px;
+    z-index: 2;
+  }
+  .screen02 .screen02__txt .screen02__txt2 {
+    font-size: 10px;
+    z-index: 3;
+  }
+  .screen02 .screen02__txt .screen02__txt3 {
+    font-size: 10px;
+    z-index: 4;
+  }
+}
+
+@media (max-width: 566px) {
+  .screen02 .screen02__main .screen02__mockup img {
+    z-index: 0;
+  }
+}
