@@ -33,7 +33,7 @@ class Header extends React.Component {
     return (
       <div className="Header">
         <span className="logo">
-          <img className="logo__col1" src={logo} />
+          <img className="logo__col1" src={"image/logo.png"} />
         </span>
         <span className="menu">
           <span className="menu__col1" onClick={scrollToScreen06}>
