@@ -262,4 +262,7 @@
 }
 
 @media (max-width: 450px) {
+  .screen01 .screen01__main .screen01__txt {
+    margin-bottom: 20px;
+  }
 }
