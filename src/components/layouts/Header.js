@@ -9,8 +9,8 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import {Route} from "react-router-dom";
-import {screen06} from "../screens";
+import { Route } from "react-router-dom";
+import { screen06 } from "../screens";
 
 class Header extends React.Component {
   constructor(props) {
